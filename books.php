@@ -22,9 +22,10 @@
         $result = $stmt->fetchAll()[0];
 
 
-        $this->booktitle = $result['booktitle'];
-        $this->id = $result['id'];
-        $this->author = $result['author'];
+        $this->booktitle = $result['The Passage'];
+        $this->author = $result['Justin Cronin'];
+        $this->category = $result['horror']
+
 
         return $this;
     }
